@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokepedia</title>
+  </head>
+  <h1 align="center">Pokepedia</h1>
+  <body>
+    <table align="center" border="1" width="500" height="750">
+      <tr height="40%">
+        <td width="30%">
+          <input type="text" id="name" placeholder="Enter your pokemon name" />
+          <button onclick="fetchData()" type="submit">Search</button>
+        </td>
+        <td width="70%">
+          <img src="" alt="pokemon image" id="pokemon-image" />
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" id="pokemon-data"></td>
+      </tr>
+    </table>
+
+    <script src="script.js"></script>
+  </body>
+</html>
